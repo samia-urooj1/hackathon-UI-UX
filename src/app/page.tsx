@@ -17,7 +17,7 @@ export default function Home() {
 <img className="h-14" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2SvaQIIIAOS-kXrAVGev-hU72Nql94d8A_Q&s"></img>
  </div>
  <Feature />
- <img className="mt-[200px] xl:mt-[280px] items-center w-full xl:h-[600px] xl:w-[1300px] xl:ml-[140px]" src="/image/main picture.png"></img>
+ <img className="mt-[200px] xl:mt-[280px] items-center w-full" src="/image/main picture.png"></img>
  <Card/>
  
     </div>

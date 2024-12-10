@@ -96,7 +96,7 @@ const productData:Product[]=[
 export default function Card(){
     return(
         <div>
-        <div className="featured flex flex-wrap gap-6 items-center mt-[80px] lg:mt-[200px] ml-[100px] xl:ml-[200px]">
+        <div className="featured flex flex-wrap gap-6 items-center mt-[80px] lg:mt-[80px] ml-[100px] xl:ml-[200px]">
             <div className="w-[100%] text-bold text-2xl lg:text-3xl"><h1><b>All Products</b></h1></div>
      {productData.map((item,index)=>(
       <div key={index} >
@@ -122,13 +122,13 @@ export default function Card(){
             <h1 className="text-bold text-2xl lg:text-3xl mt-[40px] mt-4"><b>Follow Products And Discounts On Instagram</b></h1>
            
            
-            <div className="flex gap-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4   lg:grid-cols-6  xl:ml-[180px] mt-8">
-            <img className="h-[200px] w-[200px]" src="/image/pinkchair.jpeg"></img>   
-            <img className="h-[200px] w-[200px]" src="/image/deskchair.jpeg"></img>
-            <img className="h-[200px] w-[200px]" src="/image/woodenchair.webp"></img>  
-             <img className="h-[200px] w-[200px]" src="/image/wingchairs.webp"></img>
-             <img className="h-[200px] w-[200px]" src="/image/orangechair.jpeg"></img>
-             <img className="h-[200px] w-[200px]" src="/image/whitechair.jpeg"></img>
+            <div className="flex gap-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4   lg:grid-cols-6  xl:ml-[40px] mt-8">
+            <img className="h-[160px] w-[160px]" src="/image/pinkchair.jpeg"></img>   
+            <img className="h-[160px] w-[160px]" src="/image/deskchair.jpeg"></img>
+            <img className="h-[160px] w-[160px]" src="/image/woodenchair.webp"></img>  
+             <img className="h-[160px] w-[160px]" src="/image/wingchairs.webp"></img>
+             <img className="h-[160px] w-[160px]" src="/image/orangechair.jpeg"></img>
+             <img className="h-[160px] w-[160px]" src="/image/whitechair.jpeg"></img>
             </div>
         </div>
         </div>

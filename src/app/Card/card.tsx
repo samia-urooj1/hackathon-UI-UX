@@ -68,11 +68,11 @@ const productData:Product[]=[
 export default function Card(){
     return(
         
-        <div className="featured flex flex-wrap gap-6 items-center mt-[150px] lg:mt-[200px] ml-[100px] xl:ml-[200px]">
+        <div className="featured flex flex-wrap gap-6 mb-4 items-center mt-[150px] lg:mt-[200px] ml-[100px] xl:ml-[200px]">
             <div className="w-[100%] text-bold text-2xl lg:text-3xl"><h1><b>Our Products</b></h1></div>
      {productData.map((item,index)=>(
       <div key={index} >
-         <img  className="rounded-xl w-[280px] mt-6" src={item.img}></img>
+         <img  className="rounded-xl w-[240px] mt-6 " src={item.img}></img>
           <div className="flex">
             <div className="w-[80%] mt-4">
          <h1 >{item.title}</h1>

@@ -74,7 +74,7 @@ export default function Feature(){
             <div className="w-[100%] text-bold text-2xl lg:text-3xl"><h1><b>Featured Products</b></h1></div>
      {productData.map((item,index)=>(
       <div key={index} >
-         <Link href="/singleProPage"><img  className="rounded-xl w-[280px]" src={item.img}></img></Link>
+         <Link href="/singleProPage"><img  className="rounded-xl w-[240px]" src={item.img}></img></Link>
           <div className="flex">
             <div className="w-[80%] mt-4">
          <h1 >{item.title}</h1>
@@ -92,14 +92,14 @@ export default function Feature(){
         <div className="flex flex-wrap gap-8 ml-[100px] xl:ml-[200px] mt-24 ">
             <div className="w-[100%] text-bold text-2xl lg:text-3xl"><h1><b>Top Categories</b></h1></div>
             {topCategory.map((item,index)=>(
-                <div key={index}>
+                <div key={index} className="">
 
-                    <div className="relative xl:h-48 ">
-              <img className="object-cover h-[200px] w-[280px] mt-10 xl:mt-0 xl:h-[300px] xl:w-[380px] rounded-xl" src={item.img}></img></div>
+                    <div className="relative h-48">
+              <img className="object-cover h-[240px] w-[240px] mt-10 lg:mt-0 xl:h-[250px] xl:w-[280px] rounded-xl" src={item.img}></img></div>
 
-              <div className="absolute w-[280px] xl:w-[380px]  xl:mt-10  h-[70px]  bg-black bg-opacity-60 text-white">
-              <h1 className="mt-2 ml-2">{item.title}</h1>
-              <h2 className=" ml-2">{item.price}</h2></div>
+              <div className="absolute w-[240px] xl:w-[280px]  lg:mt-2  h-[50px]  bg-black bg-opacity-60 text-white">
+              <h1 className="mt-2 ml-2 text-sm">{item.title}</h1>
+              <h2 className="text-sm ml-2">{item.price}</h2></div>
                 </div>
             ))}
             <div>
