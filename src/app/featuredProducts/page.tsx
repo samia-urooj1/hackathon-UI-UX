@@ -69,9 +69,10 @@ img:"/image/wingchairs.webp"
 
 export default function Feature(){
     return(
-        <div>
-        <div className="featured flex flex-wrap gap-6 items-center mt-14 ml-[100px] xl:ml-[200px]">
-            <div className="w-[100%] text-bold text-2xl lg:text-3xl"><h1><b>Featured Products</b></h1></div>
+        <div> 
+         <div className="text-bold text-xl sm:text-2xl mx-10 mt-14 lg:text-3xl xl:ml-[200px]"><h1><b>Featured Products</b></h1></div>
+        <div className="featured flex flex-wrap gap-6 place-items-center mt-4 m-10 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 sm:mx-10 xl:ml-[200px]">
+          
      {productData.map((item,index)=>(
       <div key={index} >
          <Link href="/singleProPage"><img  className="rounded-xl w-[240px]" src={item.img}></img></Link>
@@ -81,16 +82,16 @@ export default function Feature(){
          <h2 className="text-bold  mt-1"><b>{item.price}</b></h2></div>
 
          <div className="w-[20%]">
-         <img className="h-14  bg-gray-200 m-1 hover:bg-blue-500" src={item.img2}></img></div>
+         <img className="sm:mt-1 mt-6 sm:h-14  bg-gray-200 m-1 hover:bg-blue-500" src={item.img2}></img></div>
          
          </div>
       </div>
      )
     )}
         </div>
-
-        <div className="flex flex-wrap gap-8 ml-[100px] xl:ml-[200px] mt-24 ">
-            <div className="w-[100%] text-bold text-2xl lg:text-3xl"><h1><b>Top Categories</b></h1></div>
+<div className=" text-bold text-xl sm:text-2xl mx-10 mt-12 lg:text-3xl xl:ml-[200px] "><h1><b>Top Categories</b></h1></div>
+        <div className="flex flex-wrap gap-8 grid sm:grid-cols-2 lg:grid-cols-3 mt-4  mx-10 xl:ml-[200px]  ">
+            
             {topCategory.map((item,index)=>(
                 <div key={index} className="">
 

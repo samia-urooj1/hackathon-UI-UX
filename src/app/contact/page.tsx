@@ -77,7 +77,7 @@ export default function Contact(){
         <div className="justify-items-center lg:h-[200px]  sm:h-[100px] lg:w-[900px] md:mx-[100px] gap-6 lg:mx-[200px] bg-gray-200 m-0  flex grid sm:grid-cols-3">
 
         <div className="flex mt-6 lg:mt-12">
-          <img className="h-10 lg:h-20" src="/image/awardicon.png"></img>
+          <img className="h-10 ml-4 lg:h-20" src="/image/awardicon.png"></img>
           <div>
           <h1 className="font-bold text-sm lg:mt-4">High Quality</h1>
           <p className="text-gray-600 text-sm">Crafted from top materials</p></div>
@@ -90,11 +90,11 @@ export default function Contact(){
           <p className="text-gray-600 text-sm">Over 2 years</p></div>
         </div>
 
-        <div className="flex mt-6 lg:mt-12 ">
-          <img className="h-10 lg:h-20 " src="/image/service.png"></img>
+        <div className="flex mt-6 mr-4 lg:mt-12 ">
+          <img className="h-10 lg:h-20  " src="/image/service.png"></img>
           <div>
           <h1 className="font-bold lg:mt-4 text-sm">24/7 Support</h1>
-          <p className="text-gray-600 text-sm mb-2">Dedicated support</p></div>
+          <p className="text-gray-600  text-sm mb-4">Dedicated support</p></div>
         </div>
 
         </div>
